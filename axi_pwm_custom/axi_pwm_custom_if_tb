@@ -1,0 +1,8 @@
+#!/bin/bash
+
+SOURCE="$0.v"
+SOURCE+=" axi_pwm_custom_if.v"
+
+echo $0
+cd "$(dirname "$0")"
+source ../common/tb/run_tb.sh
